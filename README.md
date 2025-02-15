@@ -1,22 +1,34 @@
-# HomeMatch - AI-Powered Real Estate Matching
+# Personalized Real Estate Agent - Udacity Project 
 
-## Overview
-HomeMatch is an intelligent real estate matching system that uses AI to connect buyers with their ideal properties. The system generates realistic listings, processes them using advanced NLP techniques, and provides personalized recommendations based on buyer preferences.
+Project Intro: [https://learn.udacity.com/nanodegrees/nd608](https://www.udacity.com/course/generative-ai--nd608)
+Imagine you're a talented developer at "Future Homes Realty", a forward-thinking real estate company. In an industry where personalization is key to customer satisfaction, your company wants to revolutionize how clients interact with real estate listings. The goal is to create a personalized experience for each buyer, making the property search process more engaging and tailored to individual preferences.
 
-## Features
-- AI-generated real estate listings
-- Semantic search capabilities
-- Image processing with CLIP
-- Personalized property descriptions
-- Web interface for easy interaction
+## Core Components of "HomeMatch"
 
-## Prerequisites
-- Python 3.8+
-- OpenAI API key
-- Chrome browser (recommended for web interface)
+### Understanding Buyer Preferences
 
-## Installation
-1. Clone the repository:
+- Buyers will input their requirements and preferences, such as location, property type, budget, amenities, and lifestyle choices.
+- The application uses LLMs to interpret these inputs in natural language, understanding nuanced requests beyond basic filters.
+
+### Integrating with a Vector Database
+
+- Connect "HomeMatch" with a vector database, where all available property listings are stored.
+- Utilize vector embeddings to match properties with buyer preferences, focusing on aspects like neighborhood vibes, architectural styles, and proximity to specific amenities.
+
+### Personalized Listing Description Generation
+
+- For each matched listing, use an LLM to rewrite the description in a way that highlights aspects most relevant to the buyer’s preferences.
+- Ensure personalization emphasizes characteristics appealing to the buyer without altering factual information about the property.
+
+### Listing Presentation
+
+- Output the personalized listing(s) as a text description of the listing.
+
+## How to execute
+
+Clone this repositoy
+
 ```bash
-git clone [your-repo-url]
-cd homematch
+git clone https://github.com/arunchavan89/Personalized-Real-Estate-Agent.git
+cd GAIND-Personalized-Real-Estate-Agent
+```
